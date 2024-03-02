@@ -1,18 +1,19 @@
-import Sidebar from '@/components/Sidebar';
-import { getServerSideUser } from '@/lib/payload-utils';
-import { cookies } from "next/headers";
+"use client"
+
+import DashboardSidebar from '@/components/DashboardSidebar';
+import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import Navbar from '@/components/Navbar';
 
 const DashboardPage: React.FC = async () => {
-    
-    const nextCookies = cookies()
-    const { user } = await getServerSideUser(nextCookies);
-    console.log(user);
 
     return (
-        <div className="flex">
-            {user && <Sidebar user={user} />}
-            {/* Le reste de votre page ici */}
-        </div>
+        <MaxWidthWrapper>
+            <div className="flex h-screen w-full bg-gray-100">
+                <DashboardSidebar />
+                {/* Le reste de votre page ici */}
+                <h1>Dashboasasard</h1>
+            </div>
+        </MaxWidthWrapper>
     );
 };
 
