@@ -3,8 +3,6 @@ import { useMemo, useState } from "react";
 import { ChevronDown, LucideIcon } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
-import DashboardSubItemSidebar from "./DashboardSubItemSidebar";
-
 interface ISidebarItem {
   name: string;
   path: string;
@@ -50,13 +48,6 @@ const DashboardItemSidebar = ({ item, isExpanded }: { item: ISidebarItem; isExpa
         </div>
         {items && items.length > 0 && isExpanded && <ChevronDown size={18} />}
       </div>
-      {expanded && items && items.length > 0 && (
-        <div className="flex flex-col space-y-1 ml-10">
-          {items.map((subItem) => (
-            <DashboardSubItemSidebar key={subItem.path} item={subItem} />
-          ))}
-        </div>
-      )}
     </>
   );
 };

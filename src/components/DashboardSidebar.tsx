@@ -47,28 +47,6 @@ const items: ISidebarItem[] = [
     name: "Settings",
     path: "/dashboard/settings",
     icon: Settings,
-    items: [
-      {
-        name: "General",
-        path: "/dashboard/settings",
-      },
-      {
-        name: "Intégrations",
-        path: "/dashboard/settings/integrations",
-      },
-      {
-        name: "Notifications",
-        path: "/dashboard/settings/notifications",
-      },
-      {
-        name: "Mot de passe",
-        path: "/dashboard/settings/reset-password",
-      },
-      {
-        name: "Mes Données",
-        path: "/dashboard/settings/my-data",
-      },
-    ],
   },
 ];
 
