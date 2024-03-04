@@ -1,7 +1,0 @@
-{
-  "/dashboard/settings/page": "app/dashboard/settings/page.js",
-  "/dashboard/settings/notifications/page": "app/dashboard/settings/notifications/page.js",
-  "/dashboard/settings/reset-password/page": "app/dashboard/settings/reset-password/page.js",
-  "/dashboard/settings/integrations/page": "app/dashboard/settings/integrations/page.js",
-  "/dashboard/settings/my-data/page": "app/dashboard/settings/my-data/page.js"
-}
