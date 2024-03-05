@@ -10,7 +10,6 @@ import { Services } from "./collections/Services";
 
 dotenv.config({
     path: path.resolve(__dirname, "../.env"),
-
 });
 
 export default buildConfig({
