@@ -30,8 +30,9 @@ export const authRouter = router({
             email,
             password,
             role: 'user',
-            firstName: "thomas",
-            lastName: "shelby", 
+            job: "freelancer",
+            firstName: "",
+            lastName: "", 
           },
         })
   

@@ -51,7 +51,7 @@ const Page = () => {
         toast.success('Vous êtes connecté')
         router.refresh()
 
-        if(origin) {
+        if (origin) {
           router.push(`/${origin}`)
           return
         }
