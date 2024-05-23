@@ -1,6 +1,8 @@
 # Cass-Croute
 
-15 ans
+### [English version of README.md](https://github.com/Martial4034/MVP/blob/main/EN-ReadMe.md)
+
+##15 ans
 
 L'idée m'est venue de créer une **plateforme** destinée aux **professionnels** tels que les *restaurateurs, boulangers, bouchers, etc.,* pour engager des **freelancers** pour des missions physiques ou non. Le but était de permettre aux **entreprises locales de Lyon** d'engager et de recruter des **freelancers** pour des microservices, comme la gestion des réseaux sociaux, la photographie de plats, ou encore la création de menus pour des événements.
 
