@@ -1,6 +1,8 @@
 # Cass-Croute
 
-Age 15
+### [French version of README.md](https://github.com/Martial4034/MVP/blob/main/README.md)
+
+## Age 15
 
 The idea came to me to create a **platform** for **professionals** such as *restaurateurs, bakers, butchers, etc.*, to hire **freelancers** for both physical and non-physical tasks. The goal was to enable **local businesses in Lyon** to engage and recruit **freelancers** for microservices, such as social media management, food photography, or even menu creation for events.
 
