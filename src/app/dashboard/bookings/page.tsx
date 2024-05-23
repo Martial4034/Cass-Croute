@@ -1,19 +1,17 @@
-"use client"
-
 import DashboardSidebar from '@/components/DashboardSidebar';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 
-const DashboardPage: React.FC = async () => {
+const Bookings =  () => {
 
     return (
         <MaxWidthWrapper>
-            <div>
+            <div className="flex h-screen w-full bg-gray-100">
                 <DashboardSidebar />
                 {/* Le reste de votre page ici */}
-                <h1>Dashboasasard</h1>
+                <h1>Bookings</h1>
             </div>
         </MaxWidthWrapper>
     );
 };
 
-export default DashboardPage;
+export default Bookings;

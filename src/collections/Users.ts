@@ -66,6 +66,10 @@ export const Users: CollectionConfig = {
               value: "freelancer"
           },
           {
+            label: "Agence",
+            value: "agence"
+          },
+          {
               label: "Hiring",
               value: "hiring"
           }
@@ -75,12 +79,77 @@ export const Users: CollectionConfig = {
       name: "lastName",
       label: "Nom",
       type: "text",
-      required: true,
+      required: false,
     },
     {
       name: "firstName",
       label: "Prénom",
       type: "text",
-    }
+      required: false,
+    },
+    {
+      name: 'profilePhoto',
+      type: 'upload',
+      relationTo: 'media',
+      required: false,
+    },
+    {
+      name: 'bio',
+      type: 'textarea',
+      required: false,
+    },
+    {
+      name: 'birthDate',
+      type: 'date',
+      required: false,
+    },
+    {
+      name: 'phoneNumber',
+      type: 'text',
+      required: false,
+    },
+    
+    {
+      name: 'gender',
+      type: 'select',
+      options: [
+        { label: 'Homme', value: 'men' },
+        { label: 'Femme', value: 'women' },
+        { label: 'Autre', value: 'other' },
+      ],
+      required: false,
+    },
+    {
+      name: 'country',
+      type: 'text',
+      required: false,
+    },
+    {
+      name: 'city',
+      type: 'text',
+      required: false,
+    },
+    {
+      name: 'zipCode',
+      type: 'text',
+      required: false,
+    },
+    {
+      name: 'address',
+      type: 'text',
+      required: false,
+    },
+    {
+      name: 'verificationStatus',
+      type: 'select',
+      options: [
+        { label: 'Non demandé', value: 'notAsked' },
+        { label: 'En attente de validation', value: 'pending' },
+        { label: 'Validé', value: 'verified' },
+        { label: 'Refusé', value: 'denied' },
+        { label: 'Certifié', value: 'certified' },
+      ],
+      defaultValue: 'notAsked',
+    },
   ],
 };
