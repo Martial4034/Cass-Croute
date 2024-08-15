@@ -9,7 +9,8 @@ L'idée m'est venue de créer une **plateforme** destinée aux **professionnels*
 ### Projet
 Ce projet est malheureusement **obsolète** et n'est plus en développement actif, malgré l'intérêt **initial** de quelques VC/LoveMoney. L'attention s'est recentrée sur le développement de **PiglyAgency** que je commençais à monter.
 
-![Preview-Login](https://github.com/Martial4034/MVP/blob/main/public/login.png)
+
+![Preview-Login](https://raw.githubusercontent.com/Martial4034/Cass-Croute/main/public/login.png)
 
 ### Modèle Économique
 Le **business model** envisagé reposait sur une **commission** prélevée sur chaque prestation, simple.
